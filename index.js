@@ -8,7 +8,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 let prgressBar = document.querySelector('.circular-progress');
 let valueConatainer = document.querySelector('.value-container');
 let progressValue = 0;
-let progressEndValue = 65;
+let progressEndValue = 99;
 let speed = 500;
 let progress = setInterval(() => {
   progressValue++;
