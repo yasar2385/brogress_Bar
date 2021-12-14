@@ -31,3 +31,4 @@ let progress = setInterval(() => {
     statusDiv.textContent = StatusInfo[progressValue];
   }
 }, speed);
+
