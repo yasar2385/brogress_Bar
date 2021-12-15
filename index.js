@@ -16,7 +16,7 @@ let StatusInfo = {
 };
 let progressValue = 0;
 let progressEndValue = 100;
-let speed = 50;
+let speed = 500;
 let progress = setInterval(() => {
   progressValue++;
   valueConatainer.textContent = `${progressValue}%`;
@@ -31,3 +31,5 @@ let progress = setInterval(() => {
     statusDiv.textContent = StatusInfo[progressValue];
   }
 }, speed);
+
+console.log(new Date())
