@@ -32,4 +32,9 @@ let progress = setInterval(() => {
   }
 }, speed);
 
-console.log(new Date())
+console.log(new Date());
+
+document.getElementById('demo').onclick = function (e) {
+  document.getElementById('text1').value = 'DILiP';
+  alert('YES');
+};
